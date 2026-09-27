@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.LoginPageController">
+   <children>
+      <ButtonBar layoutX="460.0" layoutY="128.0" prefHeight="40.0" prefWidth="56.0">
+        <buttons>
+          <Button fx:id="btnSubmit" mnemonicParsing="false" onAction="#btnSubmitOnAction" style="-fx-background-color: #A048F7;" text="Button" />
+        </buttons>
+      </ButtonBar>
+      <TextField layoutX="257.0" layoutY="135.0" />
+      <Label layoutX="145.0" layoutY="139.0" text="Name" />
+      <Button fx:id="btn02" layoutX="69.0" layoutY="242.0" mnemonicParsing="false" onAction="#btn02OnAction" text="Button" />
+      <Button fx:id="btn04" layoutX="231.0" layoutY="242.0" mnemonicParsing="false" onAction="#btn04OnAction" text="Button" />
+      <Button fx:id="btn03" layoutX="151.0" layoutY="242.0" mnemonicParsing="false" onAction="#btn03OnAction" text="Button" />
+      <Button fx:id="btn05" layoutX="332.0" layoutY="242.0" mnemonicParsing="false" onAction="#btn05OnAction" text="Button" />
+   </children>
+</AnchorPane>
